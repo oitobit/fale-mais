@@ -52,7 +52,7 @@ Mkfile.old
 dkms.conf
 
 #ignore files extensions .pdf
-*.amparo saúde - show me the code.pdf
+amparo saúde - show me the code.pdf
 
 #ignore file observações
 observações
