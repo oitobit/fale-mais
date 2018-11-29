@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+}
+
+/* 
+formatting of header
+*/
+header#header {
+    background-color: #E9ECEF;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    height: 200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    margin-bottom: 40px;
+}
+
+header#header > p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin: -40px 0px 0px 0px;
+}
+
+/* stylize name app */
+h1.name {
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #212529;
+    margin: 0px;
+}
+
+/* container */
+div.container {
+    max-width: 100%;
+    margin: 0 10px;
+}
+
+/* section */
+section.section {
+    margin: 60px 0;
+}
+
+/* formatting table */
+div.table1, div.table2 {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(105, 63, 32);
+    color: #fff;
+    font-size: .7em;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: .8em;
+    text-transform: none;
+}
+
+select#origem {
+    margin-right: 20px;
+}
+
+/* stylize button */
+button.btn {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    display: block;
+    padding: 10px 16px;
+    margin-top: 10px;
+}
+
+h2.title-table {
+    font-weight: 400;
+}
+
+p.description {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
