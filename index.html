@@ -7,7 +7,7 @@
     <title>Projeto - Fale Mais</title>
     <link rel="stylesheet" href="style/fale-mais.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> 
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 </head>
 <body>
     <header id="header">
@@ -19,7 +19,7 @@
         <section class="section">
             <h2 class="title-table">Tabela</h2>
             <p class="description">A tabela abaixo tem como caracteristica informar o cliente sobre os valores da ligação de uma cidade para outra. Além de informar sobre os planos que podem ser adquiridos, e podendo assim falar de graça e pagar somente os minutos excedentes.</p>
-            <p class="description">Podemos observar que abaixo da tabela podemos calcular o valor de uma ligação usando a origem do DDD para o seu destino.</p>
+            <p class="description">Podemos observar que a tabela abaixo informa os valores referente a ligação de um DDD de origem para um outro DDD destino.</p>
             <div class="table1">
                 <table>
                     <tr>
@@ -59,27 +59,6 @@
                     </tr>
                 </table>
             </div>
-            <label for="origem">Origem:</label>
-            <select name="ddd" id="origem">
-                <option value="ddd11" id="ddd11">011</option>
-                <option value="ddd16">016</option>
-                <option value="ddd11">011</option>
-                <option value="ddd17">017</option>
-                <option value="ddd11">011</option>
-                <option value="ddd18">018</option>
-            </select>
-            <label for="destino">Destino</label>
-            <select name="ddd" id="destino">
-                <option value="ddd16">016</option>
-                <option value="ddd11">011</option>
-                <option value="ddd17">017</option>
-                <option value="ddd11">011</option>
-                <option value="ddd18" id="ddd18">018</option>
-                <option value="ddd11">011</option>
-            </select>
-
-            <button class="btn" onclick="calc()">Calcular</button>
-            <p id="resultado"></p>
         </section>
         <section class="section">
             <h2 class="title-table">Tabela de Promoções</h2>
@@ -132,7 +111,7 @@
     </div>
 
     <!-- //código javascript  -->
-    <script src="source/calcular.js"></script>
+    <script src="source/call.js"></script>
     <script type="text/javascript">
         // swal("Seja bem-vindo!");
     </script>
