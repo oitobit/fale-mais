@@ -108,10 +108,38 @@
                 </table>
             </div>
         </section>
+        <section class="section">
+            <h2 class="title-app">Teste App</h2>
+            <label for="valores">Escolha uma opção</label>
+            <select name="" id="valores">
+                <option value="1" id="com-plano" onmousedown="document.getElementById('plano').style.display = 'block',document.getElementById('label').style.display = 'block';">Com Plano</option>
+                <option value="2" id="sem-plano">Sem Plano</option>
+            </select>
+
+            <br>
+            <label for="plano" id="label">Selecione um plano</label>
+            <select name="" id="plano">
+                <option value="1200" id="fale30" onmousedown="document.getElementById('btn').style.display = 'block';">FaleMais30</option>
+                <option value="80" id="fale60" onmousedown="document.getElementById('btn').style.display = 'block';">FalaMais60</option>
+                <option value="200" id="fale120" onmousedown="document.getElementById('btn').style.display = 'block';">FalaMais120</option>
+            </select>
+            <button id="btn" onclick="msg()">Adquirir Plano</button>
+            <p id="demo"></p>
+            <p id="resultado"></p>
+
+            <div class="call">
+                <button class="call-button" onclick="call()" onmousedown="document.getElementById('minutos').style.display = 'block'";>Simular Chamada
+                    <p onload="call()" id="minutos"></p>
+                </button>
+                
+            </div>
+            
+        </section>
     </div>
 
     <!-- //código javascript  -->
-    <script src="source/call.js"></script>
+    <!-- <script src="source/call.js"></script> -->
+    <script src="source/teste.js"></script>
     <script type="text/javascript">
         // swal("Seja bem-vindo!");
     </script>
